@@ -1,6 +1,7 @@
 # Netwerkdocumentatie
 
 ## Basis configuratie switch
+<pre>
 enable
 configure terminal
 line console 0
@@ -21,8 +22,10 @@ line vty 0 15
 login local
 transport input ssh
 end
+</pre>
 
 ## Basis configuratie router
+<pre>
 enable
 configure terminal
 line console 0
@@ -46,4 +49,6 @@ line vty 0 15
 login local
 transport input ssh
 end
+</pre>
+
 
