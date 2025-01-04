@@ -1,1 +1,3 @@
 # Netwerkdocumentatie
+
+## basis configuratie switch
