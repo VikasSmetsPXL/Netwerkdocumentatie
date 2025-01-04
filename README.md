@@ -1,6 +1,6 @@
 # Netwerkdocumentatie
 
-## basis configuratie switch
+## Basis configuratie switch
 enable
 configure terminal
 line console 0
@@ -11,7 +11,7 @@ interface vlan 1
 ip address 192.168.1.2 255.255.255.0
 ipv6 address 2001:db8:1::2/64
 no shutdown
-ip defaultgateway 192.168.1.1
+ip default-gateway 192.168.1.1
 ip domain-name cisco.com
 crypto key generate rsa
 modulus 1024
@@ -22,7 +22,7 @@ login local
 transport input ssh
 end
 
-## basis configuratie router
+## Basis configuratie router
 enable
 configure terminal
 line console 0
@@ -46,3 +46,4 @@ line vty 0 15
 login local
 transport input ssh
 end
+
